@@ -1,2 +1,2 @@
 # Search-Optimization-Architecture
-# Search-Optimization-Architecture
+![architecture.png](architecture.png)
