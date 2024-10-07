@@ -9,7 +9,31 @@ docker run -it --rm --name connect -p 8083:8083 -e GROUP_ID=1 -e CONFIG_STORAGE_
 for checking whether kafka connect is ready or not: curl -H "Accept:application/json" localhost:8083/
 for listing all the connectors:  curl -H "Accept:application/json" localhost:8083/connectors/
 
-for attaching debezium connector to kafka connect: curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" localhost:8083/connectors/ -d @config.json
+
+commands for connecting all the connectors:
+
+for attaching debezium connector to kafka connect: 
+curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" localhost:8083/connectors/ -d @mysql-debezium-config.json
+
+for attaching users table connector to kafka connect:
+curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" localhost:8083/connectors/ -d @sink-config-for-shared_notes-table.json
+
+for attaching notes table connector to kafka connect:
+curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" localhost:8083/connectors/ -d @sink-config-for-notes-table.json
+
+for attaching shared_notes table connector to kafka connect:
+curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" localhost:8083/connectors/ -d @sink-config-for-users-table.json
+
+
+
+
+
+
+
+
+
+
+
 
 spin up elasticsearch: 
 docker run -it --rm --name elasticsearch   -p 9200:9200   -e discovery.type=single-node   -e ES_JAVA_OPTS="-Xms2g -Xmx2g"   docker.elastic.co/elasticsearch/elasticsearch:7.15.2

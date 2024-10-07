@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Leegality Search Optimization Application.iml" filepath="$PROJECT_DIR$/.idea/Leegality Search Optimization Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka_consumer_for_search_optimization.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka_consumer_for_search_optimization.main.iml" />
     </modules>
   </component>
 </project>

@@ -12,7 +12,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Document(indexName = "note_index", createIndex = true)
+@Document(indexName = "shared_index", createIndex = true)
 public class SharingTransaction {
     @Id
     @Field(name = "sharing_transaction_id")
