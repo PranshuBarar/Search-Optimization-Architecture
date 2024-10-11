@@ -78,12 +78,25 @@ services:
       - |
         echo "Installing Connector"
         confluent-hub install --no-prompt debezium/debezium-connector-mysql:1.3.1
-        confluent-hub install --no-prompt confluentinc/kafka-connect-elasticsearch:10.0.1
         #
         echo "Launching Kafka Connect worker"
         #
         /etc/confluent/docker/run
         
+
+  kafka_consumer:
+    image: kafka_consumer_for_search_optimization:0.0.1-SNAPSHOT
+    environment:
+       KAFKA_BOOTSTRAP_SERVER: kafka:9092
+       ELASTIC_HOST: elasticsearch
+       SPRING_ELASTICSEARCH_URIS: elasticsearch:9200
+    networks:
+      - search-application-network
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
 
 
   elasticsearch:
@@ -119,20 +132,4 @@ networks:
     driver: bridge
   
 
-
-
-
-  # kafka_consumer:
-  #   image: kafka_consumer_for_search_optimization:0.0.1-SNAPSHOT
-  #   environment:
-  #      KAFKA_BOOTSTRAP_SERVER: kafka:9092
-  #      ELASTIC_HOST: elasticsearch
-  #      SPRING_ELASTICSEARCH_URIS: elasticsearch:9200
-  #   networks:
-  #     - search-application-network
-  #   depends_on:
-  #     elasticsearch:
-  #       condition: service_healthy
-  #     kafka:
-  #       condition: service_healthy
 

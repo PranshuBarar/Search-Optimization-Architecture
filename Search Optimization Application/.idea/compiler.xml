@@ -12,5 +12,22 @@
         <module name="Search-Optimization-Application.resource-service.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.optimisesearch.kafka_consumer_for_search_optimization.main" target="17" />
+      <module name="kafka_consumer_for_search_optimization" target="17" />
+      <module name="kafka_consumer_for_search_optimization.test" target="17" />
+      <module name="Search-Optimization-Application" target="17" />
+      <module name="Search-Optimization-Application.auth-service" target="17" />
+      <module name="Search-Optimization-Application.auth-service.main" target="17" />
+      <module name="Search-Optimization-Application.auth-service.test" target="17" />
+      <module name="Search-Optimization-Application.main" target="17" />
+      <module name="Search-Optimization-Application.repo-service" target="17" />
+      <module name="Search-Optimization-Application.repo-service.main" target="17" />
+      <module name="Search-Optimization-Application.repo-service.test" target="17" />
+      <module name="Search-Optimization-Application.resource-service" target="17" />
+      <module name="Search-Optimization-Application.resource-service.main" target="17" />
+      <module name="Search-Optimization-Application.resource-service.test" target="17" />
+      <module name="Search-Optimization-Application.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

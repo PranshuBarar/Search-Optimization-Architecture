@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b4f8789-965c-4c72-87ed-c914c48581a5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Leegality Search Optimization Application.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search-Optimization-Application/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Search-Optimization-Application/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/auth-service/Search-Optimization-Application.auth-service.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/repo-service/Search-Optimization-Application.repo-service.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/resource-service/Search-Optimization-Application.resource-service.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../architecture.png" beforeDir="false" afterPath="$PROJECT_DIR$/../architecture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commands to spin up architecture" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka_consumer_for_search_optimization/src/main/java/com/optimisesearch/kafka_consumer_for_search_optimization/entities/SharingTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka_consumer_for_search_optimization/src/main/java/com/optimisesearch/kafka_consumer_for_search_optimization/entities/SharingTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka_consumer_for_search_optimization/src/main/java/com/optimisesearch/kafka_consumer_for_search_optimization/listeners/KafkaMessageListenerForSharingTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka_consumer_for_search_optimization/src/main/java/com/optimisesearch/kafka_consumer_for_search_optimization/listeners/KafkaMessageListenerForSharingTransactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_architecture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_architecture2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sink-config-for-notes-table.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sink-config-for-shared_notes-table.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sink-config-for-users-table.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sink-config.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kafka_consumer_for_search_optimization" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
